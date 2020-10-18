@@ -125,3 +125,34 @@ p {
 .btn--red:hover {
     background-color: #de2b2b;
 }
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px 0;
+}
+
+.features__item {
+    width: 33.33333%;
+    padding: 0 40px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.features__icon {
+    margin-bottom: 30px;
+}
+
+.features__title {
+    text-transform: uppercase;
+    color: #2d3033;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.features__text {
+    font-size: 14px;
+    color: #6c7279;
+    line-height: 1.5;
+}
