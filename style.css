@@ -117,10 +117,15 @@ p {
     padding: 20px 50px;
     border-radius: 2px;
     transition: background-color .1s linear;
+    text-align: center;
 }
 
 .btn--red {
     background-color: #e84545;
+}
+
+.btn--long {
+    min-width: 280px;
 }
 
 .btn--red:hover {
@@ -326,4 +331,24 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+}
+
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    font-size: 28px;
+    font-weight: 300;
+    color: #2d3033;
+    margin-bottom: 20px;
+}
+
+.download__subtitle {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #2d3033
 }
