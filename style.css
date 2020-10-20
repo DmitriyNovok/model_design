@@ -75,6 +75,7 @@ p {
     height: 750px;
     padding-top: 100px;
     background: #2e304a url("img/intro.jpg") center no-repeat;
+    background-size: cover;
 }
 
 .intro__title {
@@ -425,3 +426,60 @@ p {
 .copyright__text span {
     color: #fff;
 }
+
+.burger {
+    display: none;
+}
+
+
+
+@media (max-width: 991px) {
+    .intro__title {
+        font-size: 40px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        height: auto;
+        padding-top: 130px;
+        padding-bottom: 30px;
+    }
+
+    .intro__title {
+        font-size: 30px;
+    }
+
+    .intro__subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
